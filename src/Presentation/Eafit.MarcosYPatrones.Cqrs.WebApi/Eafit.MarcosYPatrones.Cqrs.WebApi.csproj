@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <LangVersion>8.0</LangVersion>
+    <UserSecretsId>2ff7a5ba-7a88-4193-9258-e6488fada482</UserSecretsId>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <CodeAnalysisRuleSet>Eafit.MarcosYPatrones.Cqrs.WebApi.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <CodeAnalysisRuleSet>Eafit.MarcosYPatrones.Cqrs.WebApi.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\Eafit.MarcosYPatrones.Cqrs.Application\Eafit.MarcosYPatrones.Cqrs.Application.csproj" />
+    <ProjectReference Include="..\..\Core\Eafit.MarcosYPatrones.Cqrs.Common\Eafit.MarcosYPatrones.Cqrs.Common.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Eafit.MarcosYPatrones.Cqrs.Infrastructure\Eafit.MarcosYPatrones.Cqrs.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Eafit.MarcosYPatrones.Cqrs.Persistence\Eafit.MarcosYPatrones.Cqrs.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>

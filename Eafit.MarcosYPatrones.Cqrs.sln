@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eafit.MarcosYPatrones.Cqrs.WebApi", "src\Presentation\Eafit.MarcosYPatrones.Cqrs.WebApi\Eafit.MarcosYPatrones.Cqrs.WebApi.csproj", "{0FD17ECA-7B65-49E7-9C55-6E8F4DB6365F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{891B9039-5EAA-46B5-8D5C-3108855F4555}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{827E473D-0F1D-4E1D-B380-104272E3B3C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eafit.MarcosYPatrones.Cqrs.Application", "src\Core\Eafit.MarcosYPatrones.Cqrs.Application\Eafit.MarcosYPatrones.Cqrs.Application.csproj", "{8CA2066B-11C1-4445-B080-C7D3F0D035E8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eafit.MarcosYPatrones.Cqrs.Domain", "src\Core\Eafit.MarcosYPatrones.Cqrs.Domain\Eafit.MarcosYPatrones.Cqrs.Domain.csproj", "{6F744A16-82BA-4549-95B4-00F4DCFE1C62}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eafit.MarcosYPatrones.Cqrs.Persistence", "src\Infrastructure\Eafit.MarcosYPatrones.Cqrs.Persistence\Eafit.MarcosYPatrones.Cqrs.Persistence.csproj", "{47D9E1ED-CFE4-4146-A410-56FDB43B711C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8A5B3F22-8E0F-47D2-89EC-1BBC35E2B84A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{C7390120-CF64-4C8B-983D-87F2E40B572C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eafit.MarcosYPatrones.Cqrs.Common", "src\Core\Eafit.MarcosYPatrones.Cqrs.Common\Eafit.MarcosYPatrones.Cqrs.Common.csproj", "{DEB56F77-4C71-47F2-B69B-1638A5801164}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eafit.MarcosYPatrones.Cqrs.Infrastructure", "src\Infrastructure\Eafit.MarcosYPatrones.Cqrs.Infrastructure\Eafit.MarcosYPatrones.Cqrs.Infrastructure.csproj", "{8B63CC2B-21DA-4491-AA00-67CD63F75762}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FD17ECA-7B65-49E7-9C55-6E8F4DB6365F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FD17ECA-7B65-49E7-9C55-6E8F4DB6365F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FD17ECA-7B65-49E7-9C55-6E8F4DB6365F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FD17ECA-7B65-49E7-9C55-6E8F4DB6365F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CA2066B-11C1-4445-B080-C7D3F0D035E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CA2066B-11C1-4445-B080-C7D3F0D035E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CA2066B-11C1-4445-B080-C7D3F0D035E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CA2066B-11C1-4445-B080-C7D3F0D035E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F744A16-82BA-4549-95B4-00F4DCFE1C62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F744A16-82BA-4549-95B4-00F4DCFE1C62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F744A16-82BA-4549-95B4-00F4DCFE1C62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F744A16-82BA-4549-95B4-00F4DCFE1C62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47D9E1ED-CFE4-4146-A410-56FDB43B711C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47D9E1ED-CFE4-4146-A410-56FDB43B711C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47D9E1ED-CFE4-4146-A410-56FDB43B711C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47D9E1ED-CFE4-4146-A410-56FDB43B711C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEB56F77-4C71-47F2-B69B-1638A5801164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEB56F77-4C71-47F2-B69B-1638A5801164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEB56F77-4C71-47F2-B69B-1638A5801164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEB56F77-4C71-47F2-B69B-1638A5801164}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B63CC2B-21DA-4491-AA00-67CD63F75762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B63CC2B-21DA-4491-AA00-67CD63F75762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B63CC2B-21DA-4491-AA00-67CD63F75762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B63CC2B-21DA-4491-AA00-67CD63F75762}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0FD17ECA-7B65-49E7-9C55-6E8F4DB6365F} = {C7390120-CF64-4C8B-983D-87F2E40B572C}
+		{891B9039-5EAA-46B5-8D5C-3108855F4555} = {8A5B3F22-8E0F-47D2-89EC-1BBC35E2B84A}
+		{827E473D-0F1D-4E1D-B380-104272E3B3C3} = {8A5B3F22-8E0F-47D2-89EC-1BBC35E2B84A}
+		{8CA2066B-11C1-4445-B080-C7D3F0D035E8} = {827E473D-0F1D-4E1D-B380-104272E3B3C3}
+		{6F744A16-82BA-4549-95B4-00F4DCFE1C62} = {827E473D-0F1D-4E1D-B380-104272E3B3C3}
+		{47D9E1ED-CFE4-4146-A410-56FDB43B711C} = {891B9039-5EAA-46B5-8D5C-3108855F4555}
+		{C7390120-CF64-4C8B-983D-87F2E40B572C} = {8A5B3F22-8E0F-47D2-89EC-1BBC35E2B84A}
+		{DEB56F77-4C71-47F2-B69B-1638A5801164} = {827E473D-0F1D-4E1D-B380-104272E3B3C3}
+		{8B63CC2B-21DA-4491-AA00-67CD63F75762} = {891B9039-5EAA-46B5-8D5C-3108855F4555}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CBB138C-7AAF-4F80-B805-1E4D623D509E}
+	EndGlobalSection
+EndGlobal
